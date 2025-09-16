@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Landing Page</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="description" content="A modern, responsive landing page built with HTML, CSS, and JavaScript.">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <!-- Hero Section -->
+  <!-- Header -->
   <header class="hero">
+    <nav class="navbar">
+      <h1 class="logo">My Company</h1>
+      <button id="theme-toggle" class="btn small">🌙</button>
+    </nav>
     <div class="hero-content">
-      <h1>Build Your Future with Us</h1>
+      <h2>Build Your Future with Us</h2>
       <p>Modern, responsive web solutions tailored for your business.</p>
       <a href="#features" class="btn">Get Started</a>
     </div>
   </header>
 
-  <!-- Features Section -->
-  <section id="features" class="features">
-    <h2>Our Features</h2>
-    <div class="features-grid">
-      <div class="feature">
-        <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Responsive">
-        <h3>Responsive Design</h3>
-        <p>Looks great on desktop, tablet, and mobile devices.</p>
+  <!-- Features -->
+  <main>
+    <section id="features" class="features">
+      <h2>Our Features</h2>
+      <div class="features-grid">
+        <article class="feature fade-in">
+          <img src="https://cdn-icons-png.flaticon.com/512/992/992651.png" alt="Responsive" />
+          <h3>Responsive Design</h3>
+          <p>Looks great on desktop, tablet, and mobile devices.</p>
+        </article>
+        <article class="feature fade-in">
+          <img src="https://cdn-icons-png.flaticon.com/512/1827/1827504.png" alt="Fast" />
+          <h3>Fast Performance</h3>
+          <p>Optimized for speed and smooth user experience.</p>
+        </article>
+        <article class="feature fade-in">
+          <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Secure" />
+          <h3>Secure</h3>
+          <p>Best practices for safety and data protection.</p>
+        </article>
       </div>
-      <div class="feature">
-        <img src="https://cdn-icons-png.flaticon.com/512/1827/1827504.png" alt="Fast">
-        <h3>Fast Performance</h3>
-        <p>Optimized for speed and smooth user experience.</p>
-      </div>
-      <div class="feature">
-        <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Secure">
-        <h3>Secure</h3>
-        <p>Best practices for safety and data protection.</p>
-      </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- Testimonials -->
-  <section class="testimonials">
-    <h2>What Clients Say</h2>
-    <div class="testimonials-grid">
-      <div class="testimonial">
-        <p>“Amazing experience, very professional and responsive.”</p>
-        <span>- Maria K.</span>
+    <!-- Testimonials -->
+    <section class="testimonials">
+      <h2>What Clients Say</h2>
+      <div class="testimonials-grid">
+        <blockquote class="testimonial fade-in">
+          <p>“Amazing experience, very professional and responsive.”</p>
+          <span>- Maria K.</span>
+        </blockquote>
+        <blockquote class="testimonial fade-in">
+          <p>“Helped us grow our business with a beautiful website.”</p>
+          <span>- John D.</span>
+        </blockquote>
+        <blockquote class="testimonial fade-in">
+          <p>“Fast, secure, and reliable — exactly what we needed.”</p>
+          <span>- Sophia L.</span>
+        </blockquote>
       </div>
-      <div class="testimonial">
-        <p>“Helped us grow our business with a beautiful website.”</p>
-        <span>- John D.</span>
-      </div>
-      <div class="testimonial">
-        <p>“Fast, secure, and reliable — exactly what we needed.”</p>
-        <span>- Sophia L.</span>
-      </div>
-    </div>
-  </section>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <form action="https://formspree.io/f/mkgvlwor" method="POST" class="fade-in">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+  </main>
 
   <!-- Call to Action -->
   <section class="cta">
     <h2>Ready to Start?</h2>
     <p>Let’s build something amazing together.</p>
-    <a href="#contact" class="btn">Contact Us</a>
   </section>
 
   <!-- Footer -->
-  <footer id="contact" class="footer">
-    <p>© 2025 Your Company. All Rights Reserved.</p>
+  <footer class="footer">
+    <p>© 2025 My Company. All Rights Reserved.</p>
   </footer>
 
   <script src="script.js"></script>
