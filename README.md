@@ -1,23 +1,25 @@
 # 🚀 Landing Page Project
 
-Μια μοντέρνα, responsive landing page φτιαγμένη με **HTML, CSS & JavaScript**.
+A modern, responsive landing page built with **HTML, CSS & JavaScript**.
 
 ## 🌐 Live Demo  
-Δες το live εδώ 👉 [Demo της σελίδας](https://NikosAg704.github.io/Landing-Page/)
+Check it out here 👉 [Live Demo](https://NikosAg704.github.io/Landing-Page/)
 
 ## 📋 Features  
-- 📱 **Responsive Design** – λειτουργεί και σε desktop, tablet και κινητά  
-- ⚡ **Fast Performance** – ελαφρύ και γρήγορο  
-- 🔒 **Secure** – βασισμένο σε best practices  
-- 🎨 **Καθαρό UI/UX** – μινιμαλιστικό και επαγγελματικό design  
+- 📱 **Responsive Design** – works on desktop, tablet, and mobile  
+- ⚡ **Fast Performance** – lightweight and optimized  
+- 🔒 **Secure** – following best practices  
+- 🎨 **Clean UI/UX** – minimalistic and professional design  
 
-## 🛠️ Τεχνολογίες  
+## 🛠️ Technologies  
 - HTML5  
 - CSS3 (Flexbox & Grid)  
 - Vanilla JavaScript (smooth scroll)  
 
 ## 📦 Installation  
-1. Κάνε clone το repo:  
+1. Clone the repository:  
    ```bash
    git clone https://github.com/NikosAg704/Landing-Page.git
-Άνοιξε το index.html στον browser.
+Open index.html in your browser.
+
+📸 Screenshots
