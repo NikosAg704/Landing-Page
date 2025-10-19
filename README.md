@@ -61,3 +61,13 @@ Formspree validates the input, blocks spam, and sends the message directly to yo
 
 No server or backend coding is required—everything works from the frontend.
 
+
+📧 Contact Created by Nikolaos Agiasmenakis
+
+📞 Phone: +30 694 033 2477
+
+📧 Email: nikosytf@gmail.com
+
+💻 GitHub: https://github.com/NikosAg704
+
+🔗 LinkedIn: https://www.linkedin.com/in/nikolaos-agiasmenakis-9496b0322/
