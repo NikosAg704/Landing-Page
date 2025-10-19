@@ -5,7 +5,7 @@ This is a modern, responsive landing page built with **HTML, CSS, and JavaScript
 ---
 
 ## 🌐 Live Demo
-Check it out here 👉 [Live Demo](https://NikosAg704.github.io/Landing-Page/)
+Check it out here 👉 [Live Demo](https://NikosAg704.github.io/Landing-Page-Design/)
 
 ---
 
